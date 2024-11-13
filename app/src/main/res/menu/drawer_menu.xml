@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Основные элементы меню -->
+    <item
+        android:id="@+id/nav_messages"
+        android:icon="@drawable/ic_messages"
+        android:title="Сообщения" />
+    <item
+        android:id="@+id/nav_send_message"
+        android:icon="@drawable/ic_send"
+        android:title="Отправить сообщение" />
+    <item
+        android:id="@+id/nav_drafts"
+        android:icon="@drawable/ic_drafts"
+        android:title="Черновики" />
+    <item
+        android:id="@+id/nav_trash"
+        android:icon="@drawable/ic_trash"
+        android:title="Корзина" />
+
+    <!-- Разделительная линия -->
+    <group android:checkableBehavior="none">
+        <item
+            android:title="__________________________________"
+            android:enabled="false" />
+    </group>
+
+    <!-- Дополнительные элементы -->
+    <item
+        android:id="@+id/nav_help"
+        android:icon="@drawable/ic_help"
+        android:title="Помощь" />
+    <item
+        android:id="@+id/nav_feedback"
+        android:icon="@drawable/ic_feedback"
+        android:title="Оставить отзыв" />
+
+</menu>
